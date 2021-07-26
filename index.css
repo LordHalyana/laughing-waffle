@@ -13,14 +13,6 @@ body {
   background: #242424;
   color: #fff;
 }
-
-/* Fake image */
-.fakeimg {
-  background-color: pink;
-  width: 100%;
-  padding: 20px;
-}
-
 .atitle{
   text-align: center;
 }
@@ -28,7 +20,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: #242424;
   padding: 20px;
   margin-top: 20px;
 }
