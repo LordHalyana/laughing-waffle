@@ -3,15 +3,13 @@ body {
   padding: 20px;
   background: #242424;
   color: #fff;
+  text-align: center;
 }
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   font-size: 40px;
-  text-align: center;
-  background: #242424;
-  color: #fff;
 }
 .atitle{
   text-align: center;
@@ -28,9 +26,6 @@ body {
 /* Footer */
 .footer {
   padding: 20px;
-  text-align: center;
-  background: #242424;
-  color: #fff;
   margin-top: 20px;
   border-radius: 35px;
 }
