@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #242424;
+  color: #fff;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: #242424;
+  color: #fff;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: pink;
+  width: 100%;
+  padding: 20px;
+}
+
+.atitle{
+  text-align: center;
+}
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #242424;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
