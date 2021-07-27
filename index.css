@@ -31,7 +31,7 @@ html body {
 }
 
 .rightcolumnr {
-  float: left;
+  float: right;
   width: 15%;
 }
 .leftcolumnr .atitle{
@@ -41,6 +41,10 @@ html body {
   text-shadow: 3px 3px #222222;
 }
 
+.bootpad{
+  padding-bottom: 500px;
+  padding-left: 30px;
+}
 /* Add a card effect for articles */
 .card {
   padding: 20px;
@@ -49,9 +53,23 @@ html body {
   padding-bottom: 50px;
 }
 
+.bigcard {
+  padding: 35px;
+  background-color: #282828 !important;
+  color: #ffff !important;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 /* Footer */
 html .footer {
-  padding: 20px;
+  padding-top: 50px;
   margin-top: 20px;
   border-radius: 35px;
   background-color: #222222;
