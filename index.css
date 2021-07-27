@@ -1,12 +1,14 @@
 *{
   background-color: 	#282828 !important;
-  color: #ffff;
+  color: #ffff !important;
 }
 
 body {
   font-family: Arial;
   padding: 20px;
   text-align: center;
+  background-color: #282828 !important;
+  color: #ffff !important;
 }
 
 /* Header/Blog Title */
