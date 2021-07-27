@@ -10,7 +10,8 @@ html body {
 .header {
   padding: 30px;
   font-size: 40px;
-  background-color: #080e09;
+  background-color: #222222;
+  text-shadow: 2px 2px #282828;
 }
 
 
@@ -19,13 +20,33 @@ html body {
   font-size: 0.8rem;
 }
 
+.leftcolumnr {
+  float: left;
+  width: 15%;
+}
+
+.middlecolumnr {
+  float: left;
+  width: 70%;
+}
+
+.rightcolumnr {
+  float: left;
+  width: 15%;
+}
+.leftcolumnr .atitle{
+  font-size: 28px;
+  border-bottom: 4px solid #222222;
+  text-transform: uppercase;
+  text-shadow: 3px 3px #222222;
+}
 
 /* Add a card effect for articles */
 .card {
   padding: 20px;
-  margin-top: 20px;
   background-color: #282828 !important;
   color: #ffff !important;
+  padding-bottom: 50px;
 }
 
 /* Footer */
@@ -33,13 +54,14 @@ html .footer {
   padding: 20px;
   margin-top: 20px;
   border-radius: 35px;
-  background-color: #080e09;
+  background-color: #222222;
+  border: #222222 solid 3px;
 }
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
+  .column {
     width: 100%;
     padding: 0;
   }
