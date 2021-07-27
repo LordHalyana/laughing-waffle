@@ -26,6 +26,11 @@ html body {
   font-size: 0.85em;
 }
 
+.blogcolumnr {
+  padding-left: 25%;
+  width: 75%;
+}
+
 .leftcolumnr {
   float: left;
   width: 15%;
@@ -48,8 +53,7 @@ html body {
 }
 
 .bootpad{
-  padding-bottom: 500px;
-  padding-left: 30px;
+  padding: 40px;
 }
 /* Add a card effect for articles */
 .card {
@@ -63,8 +67,6 @@ html body {
   padding: 35px;
   background-color: #282828 !important;
   color: #ffff !important;
-  padding-bottom: 50px;
-  width: 100%;
 }
 .row:after {
   content: "";
@@ -80,6 +82,10 @@ html .footer {
   border-radius: 35px;
   background-color: #222222;
   border: #222222 solid 3px;
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: -200px;
 }
 
 .footer a {
