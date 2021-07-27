@@ -22,7 +22,7 @@ html body {
 }
 
 .url{
-  text-align: right;
+  text-align: right !important;
   font-size: 0.85em;
 }
 
