@@ -1,8 +1,11 @@
+*{
+  background-color: 	#282828 !important;
+  color: #ffff;
+}
+
 body {
   font-family: Arial;
   padding: 20px;
-  background: #242424;
-  color: #fff;
   text-align: center;
 }
 
@@ -18,7 +21,6 @@ body {
 
 /* Add a card effect for articles */
 .card {
-  background-color: #242424;
   padding: 20px;
   margin-top: 20px;
 }
