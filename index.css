@@ -9,6 +9,7 @@ html body {
 /* Header/Blog Title */
 .header {
   padding: 30px;
+  padding-top: 75px;
   font-size: 40px;
   background-color: #222222;
   text-shadow: 2px 2px #282828;
