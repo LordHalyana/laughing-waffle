@@ -54,6 +54,13 @@ html body {
     font-size: 0.7em;
 }
 
+.buttons{
+    border-radius: 45px;
+    padding: 10px;
+    font-size: 0.55em;
+    text-transform: uppercase;
+}
+
 .date{
   text-align: left;
   font-size: 0.8rem;
