@@ -76,7 +76,11 @@ html body {
   background-color: #282828 !important;
   color: #ffff !important;
 }
-.row:after {
+
+.rowr{
+  padding-bottom: 150px;
+}
+.rowr:after {
   content: "";
   display: table;
   clear: both;
