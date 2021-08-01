@@ -127,7 +127,7 @@ html .footer {
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
     .leftrad{
         width: 100%;
         float: left;
@@ -141,11 +141,34 @@ html .footer {
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 35px;
-        height: 1400px;
+        height: 1200px;
         margin-top: 45px;
         font-size: 21px;
         background-color: #222222;
         text-shadow: 2px 2px #282828;
         border-radius: 45px;
       }
+}
+
+@media screen and (max-width: 900px) {
+  .leftrad{
+      width: 100%;
+      float: left;
+  } 
+  .rightrad{
+      width: 100%;
+      float: left;
+  }
+
+  .header {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 35px;
+      height: 1600px;
+      margin-top: 45px;
+      font-size: 21px;
+      background-color: #222222;
+      text-shadow: 2px 2px #282828;
+      border-radius: 45px;
+    }
 }
