@@ -1,25 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
 html body {
-  font-family: Arial;
-  padding: 20px;
-  text-align: center;
-  background-color: #282828 !important;
-  color: #ffff !important;
+    font-family: 'Cinzel', serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #282828 !important;
+    color: #ffff !important;
 }
 
 /* Header/Blog Title */
 .header {
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 35px;
-  height: 800px;
-  margin-top: 45px;
-  font-size: 30px;
-  background-color: #222222;
-  text-shadow: 2px 2px #282828;
-  border-radius: 45px;
-  /*background-image: url("https://w.wallhaven.cc/full/pk/wallhaven-pkw6y3.jpg"); */
-  background-repeat: no-repeat;
-  background-size: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 35px;
+    height: 800px;
+    margin-top: 45px;
+    font-size: 30px;
+    background-color: #222222;
+    text-shadow: 2px 2px #282828;
+    border-radius: 45px;
+    /*background-image: url("https://w.wallhaven.cc/full/pk/wallhaven-pkw6y3.jpg"); */
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .leftrad{
