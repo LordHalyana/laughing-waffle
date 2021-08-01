@@ -164,7 +164,7 @@ html .footer {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
   .leftrad{
       width: 100%;
       float: left;
@@ -178,7 +178,7 @@ html .footer {
       padding-left: 15px;
       padding-right: 15px;
       padding-top: 35px;
-      height: 1600px;
+      height: 1100px;
       margin-top: 45px;
       font-size: 21px;
       background-color: #222222;
@@ -188,7 +188,7 @@ html .footer {
     
   .leftrad p{
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 12px;
     margin: 25px;
   }  
 
@@ -197,6 +197,6 @@ html .footer {
     margin-left: 25px;
     margin-right: 25px;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 12px;
   }
 }
