@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 html body {
-    font-family: 'Cinzel', serif;
+    font-family: 'Oswald', sans-serif;
     padding: 20px;
     text-align: center;
     background-color: #282828 !important;
@@ -23,6 +24,26 @@ html body {
     background-size: auto;
 }
 
+/* Name in header */
+.header .name{
+  font-family: 'Orbitron', sans-serif;
+  color: lightblue;
+  font-size: 35px;
+}
+
+/* Title in header */
+.header .title{
+  font-family: 'Orbitron', sans-serif;
+  color: lightgreen;
+  font-size: 35px;
+}
+
+/* only change font family here and look into bootstap for the rest of the css for navbar */
+.navbar {
+  font-family: 'Orbitron', sans-serif;
+}
+
+
 .leftrad{
     border-right: #282828 solid 6px;
     width: 65%;
@@ -43,6 +64,10 @@ html body {
     margin: 25px;
 }
 
+.leftrad .btn{
+  margin-left: 15px;
+}
+
 .rightrad{
     width: 35%;
     float: right;
@@ -55,14 +80,6 @@ html body {
     margin-right: 25px;
     text-transform: uppercase;
     font-size: 21px;
-}
-
-.buttons{
-    border-radius: 45px;
-    padding: 15px;
-    font-size: 0.55em;
-    text-transform: uppercase;
-    margin: 25px;
 }
 
 .date{
