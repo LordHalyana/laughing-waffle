@@ -26,21 +26,21 @@ html body {
 
 /* Name in header */
 .header .name{
-  font-family: 'Orbitron', sans-serif;
-  color: lightblue;
+  font-family: 'Orbitron', sans-serif !important;
+  color: lightblue !important;
   font-size: 35px;
 }
 
 /* Title in header */
 .header .title{
-  font-family: 'Orbitron', sans-serif;
-  color: lightgreen;
+  font-family: 'Orbitron', sans-serif !important;
+  color: lightgreen !important;
   font-size: 35px;
 }
 
 /* only change font family here and look into bootstap for the rest of the css for navbar */
 .navbar {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Orbitron', sans-serif !important;
 }
 
 
