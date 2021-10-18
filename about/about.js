@@ -5,4 +5,4 @@ function showDiscord() {
     } else {
       x.style.display = "block";
     }
-  }
+  };
