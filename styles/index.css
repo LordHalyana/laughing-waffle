@@ -129,20 +129,24 @@ html body {
 
 #discordID{
   width: 100%;
-  padding: 50px 0;
+  padding: 20px 0;
   text-align: center;
-  background-color: lightblue;
+  background-color: #282828;
   margin-top: 20px;
   display: none;
 }
 
 #ShowEmail{
   width: 100%;
-  padding: 50px 0;
+  padding: 20px 0;
   text-align: center;
-  background-color: lightblue;
+  background-color: #282828;
   margin-top: 20px;
   display: none;
+}
+
+#discord-id button{
+  align-content: left;
 }
 
 /* Footer */
