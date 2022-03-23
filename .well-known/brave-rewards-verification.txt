@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: patrickpettersen.com
+Token: bb80d38d8e1d50d10b70e217e4dd2b38503dcedaef0cc185d81a14b61f56a2fb
